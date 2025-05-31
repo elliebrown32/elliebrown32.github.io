@@ -43,7 +43,7 @@
 
 /* About Section */
 .about {
-    background: linear-gradient(to right, rgba(0,0,0, 0.5)), url('./images/IMG_6861.JPG');
+    background: linear-gradient(to right, rgba(0,0,0, 0.6)), url('./images/IMG_6861.JPG');
     height: 100vh;
     background-position: center;
     background-size: cover;
