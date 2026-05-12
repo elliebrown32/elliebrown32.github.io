@@ -3,53 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LESART</title>
+    <title>LE'S Art</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href="/" class="navbar__logo">LE'S Art and Photography</a>
+        <a href="/" class="navbar__logo">LE'S Art</a>
         <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span><span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
             <span class="bar"></span>
         </div>
         <div class="navbar__menu">
             <a href="/" class="navbar__link">Home</a>
-            <a href="/photography.html" class="navbar__link">Photography</a>
-            <a href="/art.html" class="navbar__link">Art</a>
+            <a href="/murals.html" class="navbar__link">Murals</a>
+            <a href="/canvas.html" class="navbar__link">Canvas Paintings</a>
+            <a href="/other-art.html" class="navbar__link">Other Art</a>
             <a href="/contact.html" class="navbar__link">Contact</a>
         </div>
     </nav>
-    <!-- About Section -->
-    <div class="about">
-        <div class="about__content">
-            <h1>Welcome</h1>
-            <p>High quality photography, innovative logos, and custom paintings.</p>
-            <button id="openModalBtn">Get Started</button>
-            <div id="myModal" class="modal">
-                <div class="modal-content">
-                    <span id="closeModalBtn" class="close">&times;</span>
-                    <p>Where would you like to start?</p>
-                    <div class="started-buttons">
-                        <a href="/photography.html" class="started-button">Photography</a>
-                        <a href="/art.html" class="started-button">Art</a>
-                    </div>
-                </div>
+
+    <div class="hero">
+        <div class="hero__left">
+            <div class="hero__content">
+                <span class="hero__tag">Ellyonna Brown</span>
+                <h1>Art That<br><span>Moves You</span></h1>
+                <p>Murals, canvas paintings, and custom artwork<br>created with passion and purpose.</p>
+                <button id="openModalBtn" class="btn btn--gold">Explore Work</button>
             </div>
-            <script src="button.js"></script>
+        </div>
+
+        <div class="hero__marquee">
+            <!-- Column A: 9 images, duplicated -->
+            <div class="hero__marquee-col hero__marquee-col--a">
+                <div class="hero__marquee-item"><img src="./images/abstract1_canvas.jpg" alt="Abstract painting"></div>
+                <div class="hero__marquee-item"><img src="./images/fire_water_mural.jpeg" alt="Fire and water mural"></div>
+                <div class="hero__marquee-item"><img src="./images/fighter_canvas.jpeg" alt="Fighter painting"></div>
+                <div class="hero__marquee-item"><img src="./images/cherry_mural.JPG" alt="Cherry mural"></div>
+                <div class="hero__marquee-item"><img src="./images/sanctuary_city_canvas.jpg" alt="Sanctuary City painting"></div>
+                <div class="hero__marquee-item"><img src="./images/cigerates_mural.JPG" alt="Cigarettes mural"></div>
+                <div class="hero__marquee-item"><img src="./images/womb_canvas.jpg" alt="Womb painting"></div>
+                <div class="hero__marquee-item"><img src="./images/people_mural.jpg" alt="People mural"></div>
+                <div class="hero__marquee-item"><img src="./images/three_photo_canvas.jpg" alt="Three photo canvas"></div>
+                <!-- duplicate -->
+                <div class="hero__marquee-item"><img src="./images/abstract1_canvas.jpg" alt="Abstract painting"></div>
+                <div class="hero__marquee-item"><img src="./images/fire_water_mural.jpeg" alt="Fire and water mural"></div>
+                <div class="hero__marquee-item"><img src="./images/fighter_canvas.jpeg" alt="Fighter painting"></div>
+                <div class="hero__marquee-item"><img src="./images/cherry_mural.JPG" alt="Cherry mural"></div>
+                <div class="hero__marquee-item"><img src="./images/sanctuary_city_canvas.jpg" alt="Sanctuary City painting"></div>
+                <div class="hero__marquee-item"><img src="./images/cigerates_mural.JPG" alt="Cigarettes mural"></div>
+                <div class="hero__marquee-item"><img src="./images/womb_canvas.jpg" alt="Womb painting"></div>
+                <div class="hero__marquee-item"><img src="./images/people_mural.jpg" alt="People mural"></div>
+                <div class="hero__marquee-item"><img src="./images/three_photo_canvas.jpg" alt="Three photo canvas"></div>
+            </div>
+            <!-- Column B: 8 images, duplicated -->
+            <div class="hero__marquee-col hero__marquee-col--b">
+                <div class="hero__marquee-item"><img src="./images/car1_canvas.JPG" alt="Car painting"></div>
+                <div class="hero__marquee-item"><img src="./images/abstract1_mural.JPG" alt="Abstract mural"></div>
+                <div class="hero__marquee-item"><img src="./images/shoes_canvas.jpeg" alt="Shoes painting"></div>
+                <div class="hero__marquee-item"><img src="./images/mustang_mural.JPG" alt="Mustang mural"></div>
+                <div class="hero__marquee-item"><img src="./images/bag_other.jpeg" alt="Bag artwork"></div>
+                <div class="hero__marquee-item"><img src="./images/shoe_mural.JPG" alt="Shoe mural"></div>
+                <div class="hero__marquee-item"><img src="./images/shoes_other.jpeg" alt="Shoes artwork"></div>
+                <div class="hero__marquee-item"><img src="./images/wallet_other.jpg" alt="Wallet artwork"></div>
+                <!-- duplicate -->
+                <div class="hero__marquee-item"><img src="./images/car1_canvas.JPG" alt="Car painting"></div>
+                <div class="hero__marquee-item"><img src="./images/abstract1_mural.JPG" alt="Abstract mural"></div>
+                <div class="hero__marquee-item"><img src="./images/shoes_canvas.jpeg" alt="Shoes painting"></div>
+                <div class="hero__marquee-item"><img src="./images/mustang_mural.JPG" alt="Mustang mural"></div>
+                <div class="hero__marquee-item"><img src="./images/bag_other.jpeg" alt="Bag artwork"></div>
+                <div class="hero__marquee-item"><img src="./images/shoe_mural.JPG" alt="Shoe mural"></div>
+                <div class="hero__marquee-item"><img src="./images/shoes_other.jpeg" alt="Shoes artwork"></div>
+                <div class="hero__marquee-item"><img src="./images/wallet_other.jpg" alt="Wallet artwork"></div>
+            </div>
         </div>
     </div>
-    <!-- The Modal -->
-    <!-- <button id="openModalBtn">Get Started</button>
+
     <div id="myModal" class="modal">
         <div class="modal-content">
-        <span id="closeModalBtn" class="close">&times;</span>
-        <p>Where would you like to start</p>
+            <span id="closeModalBtn" class="close">&times;</span>
+            <p>What would you like to explore?</p>
+            <div class="started-buttons">
+                <a href="/murals.html" class="started-button">Murals</a>
+                <a href="/canvas.html" class="started-button">Canvas Paintings</a>
+                <a href="/other-art.html" class="started-button">Other Art</a>
+            </div>
         </div>
-    </div> -->
-    
+    </div>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <span class="footer__name">Ellyonna Brown</span>
+            <a class="footer__insta" href="https://www.instagram.com/les.4rtt/" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <circle cx="12" cy="12" r="4"/>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="3"/>
+                </svg>
+                @les.4rtt
+            </a>
+        </div>
+    </footer>
+
+    <script src="button.js"></script>
+    <script src="nav.js"></script>
 </body>
 </html>

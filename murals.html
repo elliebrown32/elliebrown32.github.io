@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murals — LE'S Art</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="navbar__logo">LE'S Art</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar__menu">
+            <a href="/" class="navbar__link">Home</a>
+            <a href="/murals.html" class="navbar__link">Murals</a>
+            <a href="/canvas.html" class="navbar__link">Canvas Paintings</a>
+            <a href="/other-art.html" class="navbar__link">Other Art</a>
+            <a href="/contact.html" class="navbar__link">Contact</a>
+        </div>
+    </nav>
+
+    <div class="page-hero">
+        <h1><span>Murals</span></h1>
+        <p>Large-scale works that transform spaces into stories.</p>
+    </div>
+
+    <section class="gallery-section">
+        <div class="gallery-grid">
+            <div class="gallery-card">
+                <img src="./images/fire_water_mural.jpeg" alt="Fire and water mural">
+            </div>
+            <div class="gallery-card">
+                <img src="./images/people_mural.jpg" alt="People mural">
+            </div>
+            <div class="gallery-card">
+                <img src="./images/abstract1_mural.JPG" alt="Abstract mural">
+            </div>
+            <div class="gallery-card">
+                <img src="./images/cherry_mural.JPG" alt="Cherry mural">
+            </div>
+            <div class="gallery-card">
+                <img src="./images/cigerates_mural.JPG" alt="Cigarettes mural">
+            </div>
+            <div class="gallery-card">
+                <img src="./images/mustang_mural.JPG" alt="Mustang mural">
+            </div>
+            <div class="gallery-card">
+                <img src="./images/shoe_mural.JPG" alt="Shoe mural">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <span class="footer__name">Ellyonna Brown</span>
+            <a class="footer__insta" href="https://www.instagram.com/les.4rtt/" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <circle cx="12" cy="12" r="4"/>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="3"/>
+                </svg>
+                @les.4rtt
+            </a>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox__close">&times;</button>
+        <img class="lightbox__img" src="" alt="">
+    </div>
+
+    <script src="nav.js"></script>
+    <script src="lightbox.js"></script>
+</body>
+</html>
