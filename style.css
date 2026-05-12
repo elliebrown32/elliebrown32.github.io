@@ -189,3 +189,7 @@ body.contact__page {
     background: var(--red);
     color: var(--black);
 }
+
+.test-bot {
+    color: var(--red);
+}
